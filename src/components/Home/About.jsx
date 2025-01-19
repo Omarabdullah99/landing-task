@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div className="about my-[110px] ">
       <div className="container-sectionn w-[90%] m-auto max-w-[1400px]">
-        <div className="about-content flex flex-col lg:flex-row items-center justify-between gap-[30px]">
+        <div className="about-content flex flex-col lg:flex-row items-center justify-around gap-[30px]">
           <div className="left-content mb-6 lg:mb-0 ">
             <img className="h-[460px]" src={exprience_left} alt="" />
           </div>
