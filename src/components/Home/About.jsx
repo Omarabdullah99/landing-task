@@ -17,7 +17,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="services my-[110px] ">
+    <div className="about my-[110px] ">
       <div className="container-sectionn w-[90%] m-auto">
         <div className="about-content flex flex-col lg:flex-row items-center justify-between">
           <div className="left-content mb-6 lg:mb-0 lg:w-1/2">
