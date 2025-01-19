@@ -18,12 +18,12 @@ const About = () => {
   ];
   return (
     <div className="about my-[110px] ">
-      <div className="container-sectionn w-[90%] m-auto">
-        <div className="about-content flex flex-col lg:flex-row items-center justify-between">
-          <div className="left-content mb-6 lg:mb-0 lg:w-1/2">
+      <div className="container-sectionn w-[90%] m-auto max-w-[1400px]">
+        <div className="about-content flex flex-col lg:flex-row items-center justify-between gap-[30px]">
+          <div className="left-content mb-6 lg:mb-0 ">
             <img className="h-[460px]" src={exprience_left} alt="" />
           </div>
-          <div className="right-content lg:w-1/2">
+          <div className="right-content ">
             <h3 className="text-[#B68053] font-[500] mb-3">About Us</h3>
             <h2 className=" md:text-[24px] leading-8 lg:text-[44px] lg:leading-[65px] mb-14px font-bold">
               We’re Experienced in This <br /> Field{" "}

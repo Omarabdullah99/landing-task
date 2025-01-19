@@ -4,6 +4,7 @@ import Aboout from '../components/Home/About'
 import Services from '../components/Home/Services'
 import ServicesSection from '../components/ServicesCopy'
 import Featured from '../components/Home/Featured'
+import ClientsSay from '../components/Home/ClientsSay'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Aboout />
       <Services />
       <Featured />
+      <ClientsSay />
     </div>
   )
 }

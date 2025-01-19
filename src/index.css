@@ -57,5 +57,37 @@
 /* services css end */
 
 
+/* custom slider css start */
+.client .slick-prev:before, .client .slick-next:before {
+  font-family: 'slick';
+  font-size: 35px !important;
+  line-height: 1;
+  opacity: .75;
+  color: #E4E4E4DB !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.client .slick-prev{
+  left: -7px;
+  z-index: 40 !important;
+}
+.client .slick-next{
+  right: -7px;
+  z-index: 40 !important;
+}
+
+.client .slick-dots li button:before{
+  font-size: 16px !important;
+  margin-top: 10px !important;
+}
+
+.client .slick-dots li.slick-active button:before{
+
+  color: #ECA76E !important;
+
+}
+/* custom slider css end */
+
 
 

@@ -8,7 +8,7 @@ import five from "../../assets/featured/5.png";
 const Featured = () => {
   return (
     <div className="featured my-[110px] ">
-      <div className="container-sectionn w-[90%] m-auto max-w-[1200px]">
+      <div className="container-sectionn w-[90%] m-auto max-w-[1400px]">
         <h1 className="text-[24px] lg:text-[44px] font-[600] leading-8 lg:leading-[50px] text-center mb-[50px]">Our Featured Project</h1>
         {/* Part 1 */}
         <div className="part1 flex flex-col lg:flex-row items-center justify-around gap-[20px] mb-[24px]">
