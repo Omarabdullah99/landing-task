@@ -3,6 +3,7 @@ import Banner from '../components/Home/Banner'
 import Aboout from '../components/Home/About'
 import Services from '../components/Home/Services'
 import ServicesSection from '../components/ServicesCopy'
+import Featured from '../components/Home/Featured'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner />
       <Aboout />
       <Services />
+      <Featured />
     </div>
   )
 }
