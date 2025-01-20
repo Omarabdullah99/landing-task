@@ -29,7 +29,8 @@ const About = () => {
               We’re Experienced in This <br /> Field{" "}
             </h2>
             <p className="text-[#000000A8] font-[400] leading-7 text-[18px] mb-4 ">
-              There are many variations of passages of Lorem Ipsum available, <br />
+              There are many variations of passages of Lorem Ipsum available,{" "}
+              <br />
               but the majority have suffered alteration in some form, by
               injected <br /> humour, or randomised words which{" "}
             </p>
@@ -39,7 +40,9 @@ const About = () => {
                   <p className="text-xl font-bold text-[#ECA76E] mb-3">
                     {experience.number}+
                   </p>
-                  <p className="text-[12px] md:text-[15px] font-bold">{experience.title}</p>
+                  <p className="text-[12px] md:text-[15px] font-bold">
+                    {experience.title}
+                  </p>
                 </div>
               ))}
             </div>

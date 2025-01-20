@@ -5,7 +5,7 @@ import video_banner from "../../assets/video-banner.png";
 const Banner = () => {
   return (
     <div className="home-banner-section h-screen flex items-center">
-      <div className="container-sectionn w-[90%] m-auto">
+      <div className="container-sectionn w-[90%] m-auto max-w-[1400px]">
         <div className="banner-content flex flex-col lg:flex-row items-center justify-around">
           <div className="left mb-6 lg:mb-0 z-10">
             <h1 className="text-[32px] lg:text-[59px] mb-5 text-white  font-blod leading-10 lg:leading-[86px]">
