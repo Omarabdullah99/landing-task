@@ -11,6 +11,7 @@ import OurTeam from "../components/Home/OurTeam";
 import Blog from "../components/Home/Blog";
 import PromoVideo from "../components/Home/PromoVideo";
 import PromoVideoFinal from "../components/Home/PromoVideoFinal";
+import Contact from "../components/Home/Contact";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <OurTeam />
       <PromoVideoFinal />
       <ClientsSay />
+      <Contact />
     </div>
   );
 };

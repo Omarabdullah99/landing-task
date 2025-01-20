@@ -65,7 +65,7 @@ const ClientsSay = () => {
 
   return (
     <div className="client my-[110px]">
-      <div className="container-sectionn w-[90%] m-auto">
+      <div className="container-sectionn w-[90%] m-auto max-w-[1400px]">
         <h1 className="text-[24px] lg:text-[42px] font-bold leading-5 lg:leading-6 mb-[60px] text-center"><span className="text-[#ECA76E]">What Clients </span>Are Saying</h1>
         <Slider {...settings}>
           {data.map((item, index) => {
