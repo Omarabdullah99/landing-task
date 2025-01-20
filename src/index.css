@@ -90,4 +90,31 @@
 /* custom slider css end */
 
 
+/* our team css start */
+.teams .img-social .social{
+  display: none;
+}
+
+.teams .img-social:hover .social{
+  display: block;
+}
+.teams .icon{
+  height: 36px;
+  width: 36px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teams .icon:hover{
+  background-color: #B68053;
+}
+.teams .icon:hover svg{
+  color: white;
+}
+/* our team css end */
+
+
 
