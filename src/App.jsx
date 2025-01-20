@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import About from './pages/About'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
+import Footertop from './pages/Footertop'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path="/service" element={<Service />}/>
       <Route path="/contact" element={<Contact />}/>
       </Routes>
+      <Footertop />
       <Footer />
     </div>
   )
