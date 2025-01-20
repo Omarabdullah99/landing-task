@@ -38,7 +38,7 @@ const OurTeam = () => {
         {/* Background Text */}
         <div className="back relative">
           <div className="absolute inset-0 flex justify-center items-center mb-[30px]">
-            <h1 className="text-[#E0E0E0] text-[140px] font-bold uppercase opacity-50 tracking-widest">
+            <h1 className="text-[#E0E0E0] text-[106px] md:text-[140px] font-bold uppercase opacity-50 tracking-widest">
               Team
             </h1>
           </div>

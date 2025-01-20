@@ -8,6 +8,7 @@ import ClientsSay from '../components/Home/ClientsSay'
 import Work from '../components/Home/Work'
 import Process from '../components/Home/Process'
 import OurTeam from '../components/Home/OurTeam'
+import Blog from '../components/Home/Blog'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Work />
       <Featured />
       <Process />
+      <Blog />
       <OurTeam />
       <ClientsSay />
     </div>
